@@ -3,7 +3,7 @@ const NavLink = () => {
     { name: "Register", href: "/register" },
     { name: "Login", href: "/login" },
   ];
-  return <div>ComponentName</div>;
+  return <div>Register Page</div>;
 };
 
 export default NavLink;

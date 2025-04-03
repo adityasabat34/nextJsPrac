@@ -1,5 +1,5 @@
 const Login = () => {
-  return <div>Welcome to Next.js!</div>;
+  return <div>Login page</div>;
 };
 
 export default Login;
