@@ -13,7 +13,7 @@ export default function Home() {
 
       <button onClick={() => router.push("/products")}>Place Order </button>
 
-      <Link href="/article/breaking-news-123?lang=en">Read in English</Link>
+      <Link href="/article/breaking-news-123?lang=en">Read in Eng</Link>
       <Link href="/article/breaking-news-123?lang=fr">Read in France</Link>
     </>
   );

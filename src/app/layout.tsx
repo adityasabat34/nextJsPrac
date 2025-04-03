@@ -15,7 +15,7 @@ export default function RootLayout({
           style={{
             width: "100%",
             height: "5rem",
-            backgroundColor: "green",
+            backgroundColor: "grey",
             textAlign: "center",
             fontSize: "50px",
             marginBottom: "100px",
@@ -29,7 +29,7 @@ export default function RootLayout({
           style={{
             width: "100%",
             height: "4rem",
-            backgroundColor: "violet",
+            backgroundColor: "red",
             textAlign: "center",
             fontSize: "50px",
             marginTop: "100px",
