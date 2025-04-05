@@ -1,18 +1,20 @@
-import UserAnalytics from "path/to/UserAnalytics";
-import RevenueMetrics from "path/to/RevenueMetrics";
-import Notification from "path/to/Notification";
-
 export default function DashboardLayout({
+  users,
+  revenue,
+  notification,
   children,
 }: {
   children: React.ReactNode;
+  users: React.ReactNode;
+  revenue: React.ReactNode;
+  notification: React.ReactNode;
 }) {
   return (
-    <div>
-      {children}
-      <UserAnalytics />
-      <RevenueMetrics />
-      <Notification />
-    </div>
+    <>
+      <div>{children}</div>
+      <div>{users}</div>
+      <div>{revenue}</div>
+      <div>{notification}</div>
+    </>
   );
 }
