@@ -1,3 +1,4 @@
+import Card from "@/app/component/cards";
 export default function RevenueMetrics() {
-  return <h1>Revenue Metrics</h1>;
+  return <Card>Revenue Metrics</Card>;
 }

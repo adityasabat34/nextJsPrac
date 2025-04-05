@@ -1,3 +1,5 @@
+import Card from "@/app/component/cards";
+
 export default function Notification() {
-  return <h1>Notification</h1>;
+  return <Card>Notification</Card>;
 }
